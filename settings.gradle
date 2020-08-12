@@ -1,3 +1,4 @@
+include ':DragonSecret'
 include ':DragonChief'
 include ':app'
 rootProject.name = "DragonCastle"

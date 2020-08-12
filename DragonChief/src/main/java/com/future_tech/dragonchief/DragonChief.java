@@ -24,22 +24,6 @@ public class DragonChief {
         return isEmail(editText.getText().toString());
     }
 
-    public static boolean isPassword(String password, int minLen, int maxLen) {
-        return password.length() >= minLen && password.length() <= maxLen;
-    }
-
-    public static boolean isPassword(String password) {
-        return isPassword(password, 8, 30);
-    }
-
-    public static boolean isPassword(EditText editText, int minLen, int maxLen) {
-        return isPassword(editText.getText().toString(), minLen, maxLen);
-    }
-
-    public static boolean isPassword(EditText editText) {
-        return isPassword(editText.getText().toString());
-    }
-
     private static boolean isAlpha(String s) {
         return s.matches("^[a-zA-Z]*$");
     }
