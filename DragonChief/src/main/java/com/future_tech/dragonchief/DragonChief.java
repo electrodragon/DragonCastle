@@ -17,7 +17,7 @@ public class DragonChief {
     }
 
     public static boolean isEmail(String email) {
-        return ((!email.contains("@")) || (!email.contains(".")) || email.length() < 5);
+        return (email.contains("@") && (email.contains(".")) && email.length() >= 5);
     }
 
     public static boolean isEmail(EditText editText) {
